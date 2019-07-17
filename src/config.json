@@ -69,8 +69,8 @@
         }
     },
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
-    "sitename": "",
+    "siteurl": "https://lenguas-vivas.online/",
+    "sitename": "lenguas-vivas",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,

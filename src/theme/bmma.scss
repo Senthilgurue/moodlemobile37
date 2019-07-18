@@ -1,6 +1,6 @@
 ion-app.app-root page-core-mainmenu-more ion-icon {
 	color: $blue !important;
 }
-ion-app.app-root page-core-mainmenu ion-icon {
-	color: $blue !important;
+.item-md ion-icon[item-start] {
+	color: $blue;
 }

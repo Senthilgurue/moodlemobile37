@@ -4,7 +4,7 @@ ion-app.app-root page-core-mainmenu-more ion-icon {
 }
 
 .item-md ion-icon[item-start] {
-  color: #0066cc !important;
+  color: #0066cc;
 }
 
 .ion-ios-add:before {

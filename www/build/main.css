@@ -11,6 +11,10 @@ ion-app.app-root.md .button-md-light .button-inner {
   color: #ffffff;
 }
 
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-md ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-md .tab-slide[aria-selected=true] .tab-button-icon {
+  color: #012258;
+}
+
 .ion-ios-add:before {
   content: "\f102";
 }

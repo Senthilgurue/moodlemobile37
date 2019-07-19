@@ -4,3 +4,6 @@ ion-app.app-root page-core-mainmenu-more ion-icon {
 .item-md ion-icon[item-start] {
 	color: $blue;
 }
+ion-app.app-root.md .button-md-light .button-inner {
+	color: $white;
+}

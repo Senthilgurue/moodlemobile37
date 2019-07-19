@@ -7,6 +7,10 @@ ion-app.app-root page-core-mainmenu-more ion-icon {
   color: #0066cc;
 }
 
+ion-app.app-root.md .button-md-light .button-inner {
+  color: #ffffff;
+}
+
 .ion-ios-add:before {
   content: "\f102";
 }

@@ -1,6 +1,6 @@
 webpackJsonp([58],{
 
-/***/ 1929:
+/***/ 1930:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonNotesAddPageModule", function() { return AddonNotesAddPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add__ = __webpack_require__(2066);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add__ = __webpack_require__(2067);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
@@ -57,7 +57,7 @@ var AddonNotesAddPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2066:
+/***/ 2067:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -142,7 +142,7 @@ var AddonNotesAddPage = /** @class */ (function () {
     };
     AddonNotesAddPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-notes-add',template:/*ion-inline-start:"F:\moodlemobile2\src\addon\notes\pages\add\add.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.notes.addnewnote\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <form name="itemEdit" (ngSubmit)="addNote($event)">\n\n        <ion-item>\n\n            <ion-label>{{ \'addon.notes.publishstate\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="type" name="publishState" interface="popover">\n\n                <ion-option value="personal">{{ \'addon.notes.personalnotes\' | translate }}</ion-option>\n\n                <ion-option value="course">{{ \'addon.notes.coursenotes\' | translate }}</ion-option>\n\n                <ion-option value="site">{{ \'addon.notes.sitenotes\' | translate }}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-textarea placeholder="{{ \'addon.notes.note\' | translate }}" rows="5" [(ngModel)]="text" name="text" required="required"></ion-textarea>\n\n        </ion-item>\n\n        <div padding>\n\n            <button ion-button block type="submit" [disabled]="processing || text.length < 2">\n\n                {{ \'addon.notes.addnewnote\' | translate }}\n\n            </button>\n\n        </div>\n\n    </form>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\moodlemobile2\src\addon\notes\pages\add\add.html"*/,
+            selector: 'page-addon-notes-add',template:/*ion-inline-start:"/Users/senthilgurue/moodle/lenguas/moodlemobile37/src/addon/notes/pages/add/add.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.notes.addnewnote\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <form name="itemEdit" (ngSubmit)="addNote($event)">\n        <ion-item>\n            <ion-label>{{ \'addon.notes.publishstate\' | translate }}</ion-label>\n            <ion-select [(ngModel)]="type" name="publishState" interface="popover">\n                <ion-option value="personal">{{ \'addon.notes.personalnotes\' | translate }}</ion-option>\n                <ion-option value="course">{{ \'addon.notes.coursenotes\' | translate }}</ion-option>\n                <ion-option value="site">{{ \'addon.notes.sitenotes\' | translate }}</ion-option>\n            </ion-select>\n        </ion-item>\n        <ion-item>\n            <ion-textarea placeholder="{{ \'addon.notes.note\' | translate }}" rows="5" [(ngModel)]="text" name="text" required="required"></ion-textarea>\n        </ion-item>\n        <div padding>\n            <button ion-button block type="submit" [disabled]="processing || text.length < 2">\n                {{ \'addon.notes.addnewnote\' | translate }}\n            </button>\n        </div>\n    </form>\n</ion-content>\n'/*ion-inline-end:"/Users/senthilgurue/moodle/lenguas/moodlemobile37/src/addon/notes/pages/add/add.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */],
             __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_notes__["a" /* AddonNotesProvider */]])

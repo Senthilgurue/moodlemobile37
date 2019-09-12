@@ -1,6 +1,6 @@
 webpackJsonp([57],{
 
-/***/ 1930:
+/***/ 1931:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,7 +10,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list__ = __webpack_require__(2067);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list__ = __webpack_require__(2068);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(999);
 // (C) Copyright 2015 Martin Dougiamas
 //
@@ -60,7 +60,7 @@ var AddonNotesListPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2067:
+/***/ 2068:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -101,7 +101,7 @@ var AddonNotesListPage = /** @class */ (function () {
     }
     AddonNotesListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-notes-list-page',template:/*ion-inline-start:"F:\moodlemobile2\src\addon\notes\pages\list\list.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.notes.notes\' | translate }}</ion-title>\n\n        <ion-buttons end></ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<addon-notes-list class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-notes-list>\n\n'/*ion-inline-end:"F:\moodlemobile2\src\addon\notes\pages\list\list.html"*/,
+            selector: 'page-addon-notes-list-page',template:/*ion-inline-start:"/Users/senthilgurue/moodle/lenguas/moodlemobile37/src/addon/notes/pages/list/list.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.notes.notes\' | translate }}</ion-title>\n        <ion-buttons end></ion-buttons>\n    </ion-navbar>\n</ion-header>\n<addon-notes-list class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-notes-list>\n'/*ion-inline-end:"/Users/senthilgurue/moodle/lenguas/moodlemobile37/src/addon/notes/pages/list/list.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
     ], AddonNotesListPage);

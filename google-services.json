@@ -1,42 +1,44 @@
 {
   "project_info": {
-    "project_number": "694767596569",
-    "firebase_url": "https://moodlemobile-push.firebaseio.com",
-    "project_id": "moodlemobile-push",
-    "storage_bucket": "moodlemobile-push.appspot.com"
+    "project_number": "795949222167",
+    "firebase_url": "https://lenguasvivas-mobile.firebaseio.com",
+    "project_id": "lenguasvivas-mobile",
+    "storage_bucket": "lenguasvivas-mobile.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:694767596569:android:a4cdad4d168c9d1a",
+        "mobilesdk_app_id": "1:795949222167:android:cdc15fbe82b3dfbae40f52",
         "android_client_info": {
-          "package_name": "com.moodle.moodlemobile"
+          "package_name": "com.lenguasvivas.mobile"
         }
       },
       "oauth_client": [
         {
-          "client_id": "694767596569-icveqqa2n56oh44l6ev1dr2oh67nh8il.apps.googleusercontent.com",
+          "client_id": "795949222167-8fur18oi5idvpd2pe6b49qmm7qr1c441.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCb2zogu0P_aZ2LNgdwzshWExITPKTXJyk"
-        },
-        {
-          "current_key": "AIzaSyDRT1HwT0gSsTty0whOVtoNKAh8SPrJXLE"
+          "current_key": "AIzaSyBspQB2w8NDJV61RR1l6GdttGPTd9-ashs"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795949222167-8fur18oi5idvpd2pe6b49qmm7qr1c441.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "795949222167-3n1bvbt7lggvo0ol0o7cbr202b9kuech.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lenguasvivas.mobile"
+              }
+            }
+          ]
         }
       }
     }
